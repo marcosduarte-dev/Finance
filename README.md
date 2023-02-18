@@ -1,21 +1,21 @@
 <h1 align="center">:file_cabinet: Personal Finance Dashboard</h1>
 
-## :memo: Descrição
+## :memo: Description
 A dashboard project to track your income and expenses!
 
-## :books: Funcionalidades
+## :books: Functionalities
 * <b>Manage Recipes</b>: Add, Remove, Edit Recipes;
 * <b>Manage Expense</b>: Add, Remove, Edit Expense;
 * <b>Graphs</b>: Monitor values ​​through charts;
 
-## :wrench: Tecnologias utilizadas
+## :wrench: Technologies used
 * Angular;
 * Material Design;
 * ng2-chart;
 
-## :rocket: Rodando o projeto
+## :rocket: Running the project
 * Soon
 
-## :dart: Status do projeto
+## :dart: Project status
 In progress
 
