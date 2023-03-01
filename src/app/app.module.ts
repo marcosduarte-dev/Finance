@@ -19,6 +19,12 @@ import { MatMenuModule } from '@angular/material/menu';
 import { CardComponent } from './card/card.component';
 import { RecipesExpenseLineComponent } from './charts/recipes-expense-line/recipes-expense-line.component';
 import { RecipesExpenseBarComponent } from './charts/recipes-expense-bar/recipes-expense-bar.component';
+import { InvestmentsBarComponent } from './charts/investments-bar/investments-bar.component';
+import { ExpenseCategoryComponent } from './charts/expense-category/expense-category.component';
+import { TableComponent } from './table/table.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
 @NgModule({
   declarations: [
@@ -27,7 +33,10 @@ import { RecipesExpenseBarComponent } from './charts/recipes-expense-bar/recipes
     DashComponent,
     CardComponent,
     RecipesExpenseLineComponent,
-    RecipesExpenseBarComponent
+    RecipesExpenseBarComponent,
+    InvestmentsBarComponent,
+    ExpenseCategoryComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +52,10 @@ import { RecipesExpenseBarComponent } from './charts/recipes-expense-bar/recipes
     MatGridListModule,
     MatCardModule,
     MatMenuModule,
-    NgChartsModule
+    NgChartsModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
   ],
   providers: [{ provide: NgChartsConfiguration, useValue: { generateColors: false }}],
   bootstrap: [AppComponent]

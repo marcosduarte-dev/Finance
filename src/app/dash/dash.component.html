@@ -19,16 +19,20 @@
       </app-card>
     </mat-grid-tile>
     <mat-grid-tile [colspan]="( cards | async )?.chart?.cols" [rowspan]="( cards | async )?.chart?.rows">
-      <app-card title="Sales by Traffic Source">
+      <app-card title="Investments">
+        <app-investments-bar></app-investments-bar>
       </app-card>
     </mat-grid-tile>
     <mat-grid-tile [colspan]="( cards | async )?.chart?.cols" [rowspan]="( cards | async )?.chart?.rows">
-      <app-card title="Online Store Sessions by Traffic Source">
+      <app-card title="Expense by category">
+        <app-expense-category></app-expense-category>
       </app-card>
     </mat-grid-tile>
     <!--Table-->
     <mat-grid-tile [colspan]="( cards | async )?.table?.cols" [rowspan]="( cards | async )?.table?.rows">
-      <app-card title="Card 9"><div>Table Content Here</div></app-card>
+      <app-card title="Card 9">
+        <app-table></app-table>
+      </app-card>
     </mat-grid-tile>
   </mat-grid-list>
  </div>
