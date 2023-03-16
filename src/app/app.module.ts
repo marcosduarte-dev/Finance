@@ -25,6 +25,7 @@ import { TableComponent } from './table/table.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { MiniCardComponent } from './mini-card/mini-card.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { MatSortModule } from '@angular/material/sort';
     RecipesExpenseBarComponent,
     InvestmentsBarComponent,
     ExpenseCategoryComponent,
-    TableComponent
+    TableComponent,
+    MiniCardComponent
   ],
   imports: [
     BrowserModule,
